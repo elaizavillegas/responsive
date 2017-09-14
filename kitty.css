@@ -15,7 +15,7 @@
 }
 @media only screen and (max-width: 600px) {
 	.kitten {
-	content: url(images/kitten-small.png);
+	content: url(https://user-images.githubusercontent.com/31671266/30456964-8dc5ae4e-995a-11e7-845a-c75ff4be5768.png);
 	}
 	@media only screen and (max-width: 400px) {
 	.kitten {
