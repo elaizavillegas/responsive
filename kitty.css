@@ -19,7 +19,7 @@
 	}
 	@media only screen and (max-width: 400px) {
 	.kitten {
-	content: url(images/kittyloaf.gif);
+	content: url();
 	}
 }
 	
