@@ -3,6 +3,9 @@
 .kitten {
 	content: url(https://user-images.githubusercontent.com/31671266/30456982-9c93eb0c-995a-11e7-9f59-1f758c03919a.png);
 	width: 100%;
+body {
+    background-color: lightblue;
+}
 }
 @media only screen and (max-width: 1000px) {
 	.kitten {
