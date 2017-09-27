@@ -1,6 +1,6 @@
 /* https://stackoverflow.com/questions/2182716/is-it-possible-to-set-the-equivalent-of-a-src-attribute-of-an-img-tag-in-css */
 body {
-    background-image: url("https://user-images.githubusercontent.com/31671266/30564258-4c54c766-9c79-11e7-9d78-9974c33427f5.PNG");
+    background-color: lightblue;
 }
 .kitten {
 	content: url(https://user-images.githubusercontent.com/31671266/30456982-9c93eb0c-995a-11e7-9f59-1f758c03919a.png);
