@@ -1,27 +1,32 @@
 /* https://stackoverflow.com/questions/2182716/is-it-possible-to-set-the-equivalent-of-a-src-attribute-of-an-img-tag-in-css */
 body {
-    background-color: lightblue;
+    background-image: url(https://user-images.githubusercontent.com/31671266/30937808-c6c38798-a38c-11e7-8ecd-4eaf7a611d1b.jpg);
 }
-.kitten {
-	content: url(https://user-images.githubusercontent.com/31671266/30456982-9c93eb0c-995a-11e7-9f59-1f758c03919a.png);
+.rick {
+	content: url(https://user-images.githubusercontent.com/31671266/30938592-6682b3ba-a38f-11e7-80a4-e3e5759ce71e.png);
 	width: 100%;
 }
-@media only screen and (max-width: 1000px) {
-	.kitten {
-	content: url(https://user-images.githubusercontent.com/31671266/30456982-9c93eb0c-995a-11e7-9f59-1f758c03919a.png);
+@media only screen and (max-width: 1366px) {
+	.rick {
+	content: url(https://user-images.githubusercontent.com/31671266/30938524-1b0b912c-a38f-11e7-822f-78d6679d02de.png);
+   width: 100%;
 }
 }
-	@media only screen and (max-width: 800px) {
-	.kitten {
-	content: url(https://user-images.githubusercontent.com/31671266/30456977-96852f32-995a-11e7-870f-caf4dc83e52e.png);
+	@media only screen and (max-width: 1000px) {
+	.rick {
+	content: url(https://user-images.githubusercontent.com/31671266/30938725-da1c90de-a38f-11e7-81ad-df5cb9e9a7d8.png);
 }
-@media only screen and (max-width: 600px) {
-	.kitten {
-	content: url(https://user-images.githubusercontent.com/31671266/30456964-8dc5ae4e-995a-11e7-845a-c75ff4be5768.png);
+@media only screen and (max-width: 700px) {
+	.rick{
+	content: url(https://user-images.githubusercontent.com/31671266/30938592-6682b3ba-a38f-11e7-80a4-e3e5759ce71e.png);
 	}
-	@media only screen and (max-width: 400px) {
-	.kitten {
-	content: url(https://user-images.githubusercontent.com/31671266/30456942-7b83df58-995a-11e7-94aa-53d9fd617f96.gif);
+	@media only screen and (max-width: 500px) {
+	.rick{
+	content: url(https://user-images.githubusercontent.com/31671266/30938155-f7678c4a-a38d-11e7-8cc5-4a1b48048648.png);
 	}
+ }
+	@media only screen and (max-width: 350px) {
+	.rick {
+	content: url(https://user-images.githubusercontent.com/31671266/30939014-ec16a0b2-a390-11e7-9165-3bcc9102d0d2.png);
 }
-	
+}
